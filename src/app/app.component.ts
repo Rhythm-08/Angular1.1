@@ -10,7 +10,7 @@ export class AppComponent {
   clsName ='one'
   clsName2 ='two'
 
-  
+
   colorVal = 'blue'; // dynamic value to DOM elements
   users =[
     {userId:10, firstName:'jenny'},
@@ -29,7 +29,12 @@ export class AppComponent {
     {id:2 ,'name':'jane'},
     {id:3 ,'name':'jim'},
   ];
+
   
+  showMsg = false;
+  btnshow(){
+   this.showMsg = !this.showMsg;
+  }
 
 
 }

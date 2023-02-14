@@ -12,12 +12,12 @@
   Learning NgClass with Expressions
 </div> -->
 
-<div [ngStyle]="{'color':colorVal}">
+<!-- <div [ngStyle]="{'color':colorVal}">
   Learning Angular is fun !
 </div>
 <a [ngStyle]="{'color':colorVal, 'background-color':'#fffccc'}" href="#">
   Learning Angular is fun !
-</a>
+</a> -->
 
 
 
@@ -58,3 +58,14 @@
   <div *ngSwitchCase="5">Value passed is 5</div>
   <div *ngSwitchDefault>This is the default value</div>
 </div> -->
+
+<!-- ngIf -->
+<button (click)="btnshow()" ngModel>Show Message</button>
+
+<div *ngIf="showMsg; then showThenMsg; else showElseMsg" ngModel class="bnt">If Statement</div>
+<ng-template  #showThenMsg><label class='else-message'>Showing Then message</label></ng-template>
+<ng-template  #showElseMsg><label class='else-message'>Showing else message</label></ng-template>
+<div *ngIf="showMsg" ngModel class="bnt">Show Message</div>
+
+
+

@@ -56,3 +56,22 @@
     <img src = "src/assets/images/ngSwitch-1.png">
     <br>
     <img src = "src/assets/images/ngSwitch-2.png">
+
+
+# NgIf - else
+- *ngIf -expression check
+    - to show or hide the elements
+- *ngIf ="expression" else templateVariableName -> #templateVariableName
+- whenever we want to use template variable reference - we SHOULD use <ng-template>
+- For eg
+ <div *ngIf = "showValue; else showMessage">Show Value</div>
+ <ng-template #showMessage> Showing else msg </ng-template>
+ <ng-template #thenBlock>Showing then msg</ng-template>
+    <img src = "src/assets/images/ngif-0.png">
+    <img src = "src/assets/images/ngif-1.png">
+    <img src = "src/assets/images/ngif-2.png">
+    <img src = "src/assets/images/ngif-3.png">
+
+
+
+
