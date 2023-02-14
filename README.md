@@ -5,7 +5,9 @@
                  - string quotes
 
 - Examples 
+<li>
         - simple using static class name
         - dynamic - from the component
         - array classes - to pass more than 1 class we use array [clsName,clsName2]
         - ngClass with Expression to true and false
+<li>
