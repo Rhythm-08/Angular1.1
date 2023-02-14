@@ -24,7 +24,7 @@
 - last  - returns true if the current element is the last element in iteration
 - Even  - gets the even number
 - odd   - gets the odd number in iterations
-<img src = "src/app/assets/images/ngFor.png">
+<img src = "src/assets/images/ngFor.png">
 
 
 # NgSwitch
@@ -41,6 +41,6 @@
     - missing out on *
     - for the string values - put the "'Strings'"
     - when using switch -> [ngSwitch] - look out on the case sensitivity
-    <img src = "src/app/assets/images/ngSwitch-0.png">
-    <img src = "src/app/assets/images/ngSwitch-1.png">
-    <img src = "src/app/assets/images/ngSwitch-2.png">
+    <img src = "src/assets/images/ngSwitch-0.png">
+    <img src = "src/assets/images/ngSwitch-1.png">
+    <img src = "src/assets/images/ngSwitch-2.png">
