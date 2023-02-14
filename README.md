@@ -25,7 +25,7 @@
 - Even  - gets the even number
 - odd   - gets the odd number in iterations
 <img src = "src/assets/images/ngFor.png">
-
+<br>
 
 # NgSwitch
 - ngSwitch
@@ -42,5 +42,7 @@
     - for the string values - put the "'Strings'"
     - when using switch -> [ngSwitch] - look out on the case sensitivity
     <img src = "src/assets/images/ngSwitch-0.png">
+    <br>
     <img src = "src/assets/images/ngSwitch-1.png">
+    <br>
     <img src = "src/assets/images/ngSwitch-2.png">
