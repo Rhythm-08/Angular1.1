@@ -1,3 +1,35 @@
+# Directives
+ <h2> There are 3 types of Directives </h2>
+ - component 
+ - structural
+ - attribute
+
+ 1. component is a type of directive
+  - class of its own
+  it has its own template
+  - every angular app must have atleast 1 directive(component)
+  - Please refer to components tutorial to learn in depth
+
+ 2. Structural Directive
+ - (*) symbol 
+ - These directives alter the structure of the template
+ - ngFor,ngIf and ngSwitch
+ - for loop in ant other language - js,java, this idea is same
+   you iterate over a set of dat and do some operations
+ - ngIf we can do a conditional expression
+    -if else -you would have written in any other language
+    - else statement using template variable 
+ - ngswitch
+    - switch case statements to evaluate some expressions
+        - true or false -> corresponding output       
+ 
+ 3. Attribute Directives
+    There are mainly 2 attribute directives
+    ngClass and ngStyle
+    
+
+
+
 # NgClass
 -ngClass is a directive which is used to set the class name for DOM elements
 - [ngclass] =""
