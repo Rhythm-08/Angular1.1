@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular_1.1';
+  clsName ='one'
+  clsName2 ='two'
+
+
 }
