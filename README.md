@@ -9,10 +9,20 @@
         - dynamic - from the component
         - array classes - to pass more than 1 class we use array [clsName,clsName2]
         - ngClass with Expression to true and false
+<img src = "src/assets/images/ngClass.png">
+<img src = "src/assets/images/ngClass-1.png">
+<img src = "src/assets/images/ngClass-2.png">
+
+        
 # NgStyle
 - ngStyle is used for setting the style attributes of DOM elements
 - we can set one or more properties
 - common mistake = [ngStyle] case sensitivity
+<img src = "src/assets/images/ngStyle-0.png">
+<img src = "src/assets/images/ngStyle-1.png">
+<img src = "src/assets/images/ngStyle-2.png">
+
+
 
 
 # NgFor
