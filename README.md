@@ -67,10 +67,10 @@
  <div *ngIf = "showValue; else showMessage">Show Value</div>
  <ng-template #showMessage> Showing else msg </ng-template>
  <ng-template #thenBlock>Showing then msg</ng-template>
-    <img src = "src/assets/images/ngif-0.png">
-    <img src = "src/assets/images/ngif-1.png">
-    <img src = "src/assets/images/ngif-2.png">
-    <img src = "src/assets/images/ngif-3.png">
+    <img src = "src/assets/images/ngIf-0.png">
+    <img src = "src/assets/images/ngIf-1.png">
+    <img src = "src/assets/images/ngIf-2.png">
+    <img src = "src/assets/images/ngIf-3.png">
 
 
 
